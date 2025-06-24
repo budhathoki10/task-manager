@@ -1,0 +1,76 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+   width: 100%;        
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.container {
+  background: none;
+  box-shadow: 2px 4px 12px rgba(0, 255, 34, 0.1); 
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  width: max-content;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.subcontainer{
+
+background: none;
+  box-shadow: 2px 4px 1px rgba(255, 3, 3, 0.1); 
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: max-content;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  margin-left: 25px;
+
+
+}
+#input,#status,#select,#date,#status{
+    display: block;
+    margin-top: 15px;
+    padding: 6px;
+     border-radius: 6px;
+     cursor: pointer;
+     width: 350px;
+     font-size:medium;
+}
+
+.btn{
+    display: block;
+    margin-top: 15px;
+    padding: 6px;
+     border-radius: 6px;
+     background-color: aquamarine;
+     box-shadow: 0.2px 1.2px 1px aquamarine;
+     cursor: pointer;
+
+}
+.container .heading h4{
+   color: chocolate;
+   margin-left: 60px;
+}
+.Result{
+    background: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+  border-radius: 12px;
+  height: max-content;
+  width: 100%;
+  margin-top: 5px;
+}
+.Result .res{
+  color: green;
+  font-size: x-small;
+}
+/* res */
